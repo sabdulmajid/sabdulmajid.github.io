@@ -35,17 +35,18 @@ class Main extends React.Component {
           <p>
             Hey there! My name is Ayman. I'm a Year 13 (Grade 12) student
             currently studying the British-patterned A levels at the
-            International School of KSAFH-NWR, Tabuk. I'm taking four A level
-            subjects: Computer Science, Mathematics, Physics & Chemistry.
+            International School of KSAFH-NWR, located in Tabuk, Saudi Arabia.
+            I'm taking four A level subjects: Computer Science, Mathematics,
+            Physics & Chemistry.
           </p>
           <p>
             My main interests lie in tech & CS. The extensive integration of
             technology into our lives has nurtured my fascination of software
             systems and how they affect everything that we do, which further
             lead me to learn more about the applications of these systems in the
-            real-world. As a result, I strived to become an avid programmer in multiple
-            different frameworks & languages, such as C/C++, JavaScript, Python
-            and ReactJS.
+            real-world. As a result, I strived to become an avid programmer in
+            multiple different frameworks & languages, such as C/C++,
+            JavaScript, Python and ReactJS.
           </p>
           {close}
         </article>
@@ -143,8 +144,7 @@ class Main extends React.Component {
             </ul>
           </form> */}
           <ul className="icons">
-            <li></li>
-            <li></li>
+                       
             <li>
               <a
                 href="https://linkedin.com/in/sabdulmajid"
