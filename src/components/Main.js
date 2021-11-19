@@ -35,7 +35,17 @@ class Main extends React.Component {
           <p>
             Hey there! My name is Ayman. I'm a Year 13 (Grade 12) student
             currently studying the British-patterned A levels at the
-            International School of KSAFH-NWR, Tabuk.
+            International School of KSAFH-NWR, Tabuk. I'm taking four A level
+            subjects: Computer Science, Mathematics, Physics & Chemistry.
+          </p>
+          <p>
+            My main interests lie in tech & CS. The extensive integration of
+            technology into our lives has nurtured my fascination of software
+            systems and how they affect everything that we do, which further
+            lead me to learn more about the applications of these systems in the
+            real-world. As a result, I strived to become an avid programmer in multiple
+            different frameworks & languages, such as C/C++, JavaScript, Python
+            and ReactJS.
           </p>
           {close}
         </article>
@@ -51,12 +61,9 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            Working as Software Engineer at ZNotes.
-          </p>
-          <p>
-            Learning entrepreneurship at Flowboat.
-          </p>
+          <p>Working as Software Engineer at ZNotes.</p>
+          <p>Learning entrepreneurship at Flowboat.</p>
+          <p>Executive at Re-Fill.</p>
           {close}
         </article>
 
@@ -140,7 +147,7 @@ class Main extends React.Component {
             <li></li>
             <li>
               <a
-                href="https://linkedin.com/in/sabdulmajid" 
+                href="https://linkedin.com/in/sabdulmajid"
                 target="_blank"
                 className="icon fa-linkedin"
               >
@@ -165,7 +172,7 @@ class Main extends React.Component {
                 <span className="label">Devpost</span>
               </a>
             </li>
-            <li>  
+            <li>
               <a
                 href="mailto:aymanwebsite@outlook.com"
                 className="icon fa-envelope"
@@ -173,8 +180,8 @@ class Main extends React.Component {
                 <span className="label">Email</span>
               </a>
             </li>
-            <br/> 
-            <br/>  
+            <br />
+            <br />
           </ul>
           {close}
         </article>
