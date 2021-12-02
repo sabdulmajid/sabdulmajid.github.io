@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "",
   siteMetadata: {
     title: "Ayman's Personal Website",
     author: 'Shaikh Ayman Abdul-Majid',

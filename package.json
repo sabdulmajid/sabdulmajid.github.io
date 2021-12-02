@@ -2,7 +2,7 @@
   "name": "gatsby-starter-dimension-v2",
   "description": "Gatsby Starter - Dimension V2",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Shaikh Ayman Abdul-Majid",
   "dependencies": {
     "gatsby": "^2.32.13",
     "gatsby-cli": "^3.14.1",
@@ -19,8 +19,8 @@
   ],
   "license": "MIT",
   "scripts": {
+    "deploy":"gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
