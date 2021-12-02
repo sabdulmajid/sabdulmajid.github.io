@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import pic01 from '../images/pic01.png'
 import pic02 from '../images/pic02.png'
-import pic03 from '../images/pic03.jpg'
+import pic03 from '../images/pic03.png'
 
 class Main extends React.Component {
   render() {
@@ -34,19 +34,20 @@ class Main extends React.Component {
           </span>
           <p>
             Hey there! My name is Ayman. I'm a Year 13 (Grade 12) student
-            currently studying the British-patterned A levels at the
+            currently studying the British-patterned CAIE A-levels at the
             International School of KSAFH-NWR, located in Tabuk, Saudi Arabia.
-            I'm taking four A level subjects: Computer Science, Mathematics,
-            Physics & Chemistry.
+            I'm studying four A-level subjects: Computer Science, Mathematics,
+            Physics & Chemistry, and enjoying each one of them.
           </p>
           <p>
             My main interests lie in tech & CS. The extensive integration of
-            technology into our lives has nurtured my fascination of software
-            systems and how they affect everything that we do, which further
-            lead me to learn more about the applications of these systems in the
-            real-world. As a result, I strived to become an avid programmer in
+            technology into our lives has nurtured my fascination with software
+            systems and how they affect everything we do, which further led me
+            to learn more about the applications of these systems in the real
+            world. As a result, I strived to become an avid programmer in
             multiple different frameworks & languages, such as C/C++,
-            JavaScript, Python and ReactJS.
+            JavaScript, Python and ReactJS, to be able to explore & create
+            complex software systems.
           </p>
           {close}
         </article>
@@ -58,13 +59,41 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work & Education</h2>
+          <h2 className="major">Work & Activities</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>Working as Software Engineer at ZNotes.</p>
-          <p>Learning entrepreneurship at Flowboat.</p>
-          <p>Executive at Re-Fill.</p>
+          <p>
+            <b>Software Engineer at{' '}
+            <a href="https://znotes.org/" target="_blank">
+              ZNotes
+            </a></b>
+            . ZNotes is a community-led online learning platform allowing
+            students to maximize their potential by having free access to
+            high-quality educational resources. I maintain the front-end of the
+            live website and extensively write code using the MERN (MongoDB,
+            Express.js, React.js & Node.js) stack.
+          </p>
+          <p>
+            <b>Member at{' '}
+            <a href="https://www.flowboat.ca/" target="_blank">
+              Flowboat
+            </a></b>
+            . Flowboat is a startup incubator in Waterloo that provides
+            entrepreneurial lessons, industry mentors, and pitch training for
+            high school students to start their own startups.
+          </p>
+          <p>
+            <b>Technology Executive at{' '}
+            <a href="https://re-fill.app/" target="_blank">
+              Re-Fill
+            </a></b>
+            . Re-Fill is a start-up company based on snack-subscription. Re-Fill
+            won the Flowboat Pitch Competition 2021. My job is to maintain the
+            technological aspect of the startup and propose advancements in
+            technology that will benefit the growth of the start-up. We plan on
+            attending the Diamond Pitch Challenge this year.
+          </p>
           {close}
         </article>
 
@@ -81,12 +110,10 @@ class Main extends React.Component {
           </span>
           <p>
             I've always had a strong interest in technology and software
-            development. As a result, I've managed to build a variety of
-            different projects, ranging from making an Arduino-based Robotic Car
-            to coding eye-catching websites, made with ReactJS.
+            development. 
           </p>
           <p>
-            My latest and most noted project has been{' '}
+            My latest and most notable project has been{' '}
             <a
               href="https://devpost.com/software/medicaid-3f2er5"
               target="_blank"
@@ -107,8 +134,10 @@ class Main extends React.Component {
             </a>
             , which was submitted to Hack the North 2021. It is a project that
             taught me a lot more about using front-end and back-end modules, and
-            also aided in helping me learn how to use Unity WebGL to host a game
-            on a website, which could be played with through the browser.
+            also taught me how to use Unity WebGL to host a game on a website,
+            which could be played with through the browser. This took many hours
+            of hard work and collaboration and showed me how to work efficiently
+            in limited time constraints.
           </p>
           {close}
         </article>
@@ -143,8 +172,8 @@ class Main extends React.Component {
               </li>
             </ul>
           </form> */}
+
           <ul className="icons">
-                       
             <li>
               <a
                 href="https://linkedin.com/in/sabdulmajid"
