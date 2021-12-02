@@ -64,10 +64,12 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            <b>Software Engineer at{' '}
-            <a href="https://znotes.org/" target="_blank">
-              ZNotes
-            </a></b>
+            <b>
+              Software Engineer at{' '}
+              <a href="https://znotes.org/" target="_blank">
+                ZNotes
+              </a>
+            </b>
             . ZNotes is a community-led online learning platform allowing
             students to maximize their potential by having free access to
             high-quality educational resources. I maintain the front-end of the
@@ -75,19 +77,23 @@ class Main extends React.Component {
             Express.js, React.js & Node.js) stack.
           </p>
           <p>
-            <b>Member at{' '}
-            <a href="https://www.flowboat.ca/" target="_blank">
-              Flowboat
-            </a></b>
+            <b>
+              Member at{' '}
+              <a href="https://www.flowboat.ca/" target="_blank">
+                Flowboat
+              </a>
+            </b>
             . Flowboat is a startup incubator in Waterloo that provides
             entrepreneurial lessons, industry mentors, and pitch training for
             high school students to start their own startups.
           </p>
           <p>
-            <b>Technology Executive at{' '}
-            <a href="https://re-fill.app/" target="_blank">
-              Re-Fill
-            </a></b>
+            <b>
+              Technology Executive at{' '}
+              <a href="https://re-fill.app/" target="_blank">
+                Re-Fill
+              </a>
+            </b>
             . Re-Fill is a start-up company based on snack-subscription. Re-Fill
             won the Flowboat Pitch Competition 2021. My job is to maintain the
             technological aspect of the startup and propose advancements in
@@ -110,7 +116,9 @@ class Main extends React.Component {
           </span>
           <p>
             I've always had a strong interest in technology and software
-            development. 
+            development. This interest inspired me to learn and explore the
+            field in-depth, making various projects and researching the
+            importance of specific technologies over others.
           </p>
           <p>
             My latest and most notable project has been{' '}
@@ -120,24 +128,32 @@ class Main extends React.Component {
             >
               My MedicAid
             </a>
-            , which won <b>2nd place</b> at Hack the Valley V 2021. It is a
-            project that I spent lots of time on, and is one of my biggest
-            achievements.
+            , which won <b>2nd place</b> out of 327 participants (80 projects)
+            at Hack the Valley V 2021. It is a project that taught me many
+            important skills, such as time management, collaboration, and
+            interpersonal skills, and is one of my biggest achievements.
           </p>
           <p>
-            Another wonderful project that I've made is{' '}
+            Another important project that I've made is{' '}
             <a
               href="https://devpost.com/software/linkup-96m7x1"
               target="_blank"
             >
               Link Up
             </a>
-            , which was submitted to Hack the North 2021. It is a project that
-            taught me a lot more about using front-end and back-end modules, and
-            also taught me how to use Unity WebGL to host a game on a website,
-            which could be played with through the browser. This took many hours
-            of hard work and collaboration and showed me how to work efficiently
+            , which was submitted to Hack the North 2021, a hackathon hosted by
+            the University of Waterloo. It is a project that gave me a hands-on
+            experience on using both front-end and back-end modules, and also
+            taught me how to use Unity WebGL to host a game on a website, which
+            could be played with through the browser. This took many hours of
+            hard work and collaboration, and showed me how to work efficiently
             in limited time constraints.
+          </p>
+          <p>
+            Working with an Arduino-based Robotic Car strengthened my knowledge
+            of C and sparked my interest in modular programming. Creating new
+            commands from scratch, organizing them, and controlling the movement & sensitivity of
+            the car was a fascinating and enjoyable experience.
           </p>
           {close}
         </article>
