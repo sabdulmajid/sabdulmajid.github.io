@@ -6,3 +6,6 @@ yarn-error.log
 # Build directory
 /public
 .DS_Store
+
+# Command for rebuilding and deploying the website
+gitcommands.txt
