@@ -33,11 +33,11 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Hey there! My name is Ayman. I'm a Year 13 (Grade 12) student
-            currently studying the British-patterned CAIE A-levels at the
-            International School of KSAFH-NWR, located in Tabuk, Saudi Arabia.
-            I'm studying four A-level subjects: Computer Science, Mathematics,
-            Physics & Chemistry, and enjoying each one of them.
+            Hey there! My name is Ayman. I'm a first year Software Engineering
+            student at the University of Waterloo, located in Waterloo, Ontario,
+            Canada. I have a strong passion for technology and software
+            development, and have extensive experience in full-stack web
+            development.
           </p>
           <p>
             My main interests lie in tech & CS. The extensive integration of
@@ -66,6 +66,18 @@ class Main extends React.Component {
           <p>
             <b>
               Software Engineer at{' '}
+              <a href="https://reviewkit.me/" target="_blank">
+                ReviewKit
+              </a>
+            </b>
+            . ReviewKit is an application where users are able to easily upload
+            and share their resumes with a single link, creating a new review
+            session for each reviewer. I maintain the whole app, as well as
+            implement new features on the website using React.js and Node.js.
+          </p>
+          <p>
+            <b>
+              Software Engineering Intern at{' '}
               <a href="https://znotes.org/" target="_blank">
                 ZNotes
               </a>
@@ -96,9 +108,9 @@ class Main extends React.Component {
             </b>
             . Re-Fill is a start-up company based on snack-subscription. Re-Fill
             won the Flowboat Pitch Competition 2021. My job is to maintain the
-            technological aspect of the startup and propose advancements in
-            technology that will benefit the growth of the start-up. We plan on
-            attending the Diamond Pitch Challenge this year.
+            technological aspect of the startup and oversee new projects. We
+            have attended multiple pitch competitions, including the prestigious
+            Diamond Pitch Challenge.
           </p>
           {close}
         </article>
@@ -152,8 +164,8 @@ class Main extends React.Component {
           <p>
             Working with an Arduino-based Robotic Car strengthened my knowledge
             of C and sparked my interest in modular programming. Creating new
-            commands from scratch, organizing them, and controlling the movement & sensitivity of
-            the car was a fascinating and enjoyable experience.
+            commands from scratch, organizing them, and controlling the movement
+            & sensitivity of the car was a fascinating and enjoyable experience.
           </p>
           {close}
         </article>
